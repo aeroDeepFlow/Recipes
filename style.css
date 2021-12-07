@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Gwendolyn:wght@400;700&display=swap');
+:root {
+    --bg-color-body: #f7f8f9;
+    --bg-color-elms: #ffffff;
+    --bg-color-dark: #343239;
+    --color-tomate: #ff6347;
+    --color-light-pink: #fdf5e6;
+    --font-corin: 'Corinthia', cursive;
+    --font-gwen: 'Gwendolyn', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color-body);
+}
+
+.container {
+    max-width: 80%;
+    min-width: 40%;
+    margin: 1rem auto;
+    height: calc(98vh - 1rem);
+}
+
+header {
+    height: 15vh;
+    background-color: var(--bg-color-elms);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--color-tomate);
+    border-radius: 25px;
+}
+
+.logo {
+    display: block;
+    margin: auto 2rem;
+}
+
+.logo span {
+    font-family: var(--font-corin);
+    font-size: 5em;
+    color: var(--color-tomate);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: auto 0.6rem;
+}
+
+nav li a {
+    font-family: var(--font-corin);
+    font-weight: 600;
+    font-size: 2.5em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-tomate);
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0;
+    height: 67vh;
+}
+
+#recetas {
+    flex-basis: 55%;
+    height: 100%;
+}
+
+.img-receta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#nombre-receta {
+    font-family: var(--font-gwen);
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--color-tomate);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-light-pink);
+    border-radius: 25px;
+}
+
+#img {
+    background-image: url("./assets/images/0001.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+}
+
+article {
+    background-color: var(--bg-color-elms);
+    padding: 1.5rem 1rem;
+    border: 2px solid var(--color-tomate);
+    border-radius: 25px;
+    height: 100%;
+}
+
+aside {
+    background-color: var(--color-light-pink);
+    flex-basis: 45%;
+    padding: 2rem;
+    border: 2px solid var(--color-tomate);
+    border-radius: 25px;
+}
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#num-recetas {
+    font-family: var(--font-gwen);
+    font-size: 2em;
+    color: var(--bg-color-dark);
+    text-align: center;
+    height: 30%;
+}
+
+#num-recetas input {
+    font-size: 0.7em;
+    border: 1px solid var(--bg-color-dark);
+    border-radius: 25px;
+    margin: 1rem;
+    width: 25%;
+}
+
+#ingrediente-proceso {
+    background-color: var(--bg-color-elms);
+    opacity: 0.8;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 60%;
+}
+
+#ingrediente-proceso ol {
+    margin: 1rem;
+    margin-left: 2.5rem;
+}
+
+#ingrediente-proceso li {
+    margin-top: 0.1rem;
+    font-size: 1.5em;
+    font-family: var(--font-gwen);
+    color: var(--bg-color-dark);
+    text-align: justify;
+}
+
+ol li::marker {
+    border-radius: 1px;
+    color: var(--color-tomate);
+    font-weight: bold;
+}
+
+#mostrar-accion {
+    font-family: var(--font-gwen);
+    color: var(--color-tomate);
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0;
+    height: 10%;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.1rem 1.5rem;
+    background-color: var(--color-tomate);
+    border: 1px solid var(--color-tomate);
+    border-radius: 30px;
+    flex-basis: 30%;
+    font-family: var(--font-gwen);
+    color: var(--bg-color-elms);
+    font-size: 1em;
+}
+
+button:disabled {
+    background-color: var(--color-light-pink);
+    color: var(--color-tomate);
+}
+
+.receta-data {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: var(--color-light-pink);
+    border-radius: 25px;
+    padding: 1.5rem 1rem;
+    font-family: var(--font-gwen);
+    color: var(--bg-color-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.receta-data>div {
+    margin-right: 1rem;
+}
+
+.receta-data i {
+    color: var(--color-tomate);
+    width: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--bg-color-dark);
+    height: 10vh;
+    border-radius: 25px;
+    color: var(--color-tomate);
+    text-align: center;
+    font-family: var(--font-gwen);
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.social>a {
+    margin: 0.25rem 1rem;
+    font-size: 2rem;
+}

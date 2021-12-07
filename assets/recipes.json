@@ -1,0 +1,74 @@
+[{
+        "id": "0001",
+        "name": "Sopa de cebolla",
+        "Ingredientes": "1 Kg de cebollas. 2 l de caldo de carne. 100 gr mantequilla. 1 cucharada de harina. 100 gr de queso emmental suizo o gruyére rallado. Pan tostado en rebanadas. Tomillo. 1 hoja de laurel. Pimienta.",
+        "Proceso": "Pelar y partir las cebollas en rodajas finas. Rehogarlas con la mantequilla. Sal y pimienta a fuego lento hasta que estén transparentes sin dorarse. Añadir la harina sin dejar de remover. Ponerlo en una cazuela con el caldo. El tomillo y el laurel. Dejar cocer a fuego lento durante unos 15 minutos. Poner las rebanadas de pan encima. Espolvorear el queso y gratinar al horno.",
+        "img": "./assets/images/0001.jpg",
+        "personas": 4,
+        "stars": 4,
+        "likes": 1232,
+        "dislikes": 53,
+        "tiempo": 35
+    },
+    {
+        "id": "0002",
+        "name": "Crumble de manzana vegano con avena",
+        "Ingredientes": "215 g de LA LECHERA Veggie (185 g para las manzanas y 30 g para el crumble). 600 g de manzanas Golden. 1 cucharadita de café de extracto de vainilla. 1/2 cucharadita de café de canela en polvo. Ralladura de 1 limón. 100 g de copos de avena finos. 45 g de harina de almendras. 30 g de harina de trigo. 45 g de margarina fría.",
+        "Proceso": "Precalentar el horno a 200ºC. En un bol, poner 185 g de LA LECHERA Veggie, la esencia de vainilla, la canela y la ralladura de limón. Mezclar. Pelar y cortar en gajos las manzanas e ir añadiéndolas a la mezcla anterior e ir removiendo para que las manzanas no se oxiden. En otro bol, mezclar la harina de almendras, la harina de trigo y los copos de avena. Añadir la margarina en trocitos y 30 g de LA LECHERA Veggie y mezclar. En un molde de 26x18 cm apto para el horno, añadir la manzana con todo el líquido y encima añadir el crumble de avena, desmigándolo con las manos formando pequeñas bolitas. Hornear durante unos 30 min en la parte inmediatamente superior a las guías de la mitad del horno.",
+        "img": "./assets/images/0002.jpg",
+        "personas": 5,
+        "stars": 5,
+        "likes": 2365,
+        "dislikes": 521,
+        "tiempo": 45
+    },
+    {
+        "id": "0003",
+        "name": "Patatas duquesa",
+        "Ingredientes": "1 sobre (115 g) de Puré de patatas MAGGI. 400 ml de leche semidesnatada. 1 yema de huevo para pincelar. Sal. 20 g de mantequilla. pimienta blanca. nuez moscada",
+        "Proceso": "Precalentar el horno en función grill fuerte. Preparar el puré de patatas con la leche siguiendo las instrucciones del embalaje. Mezclar el puré de patatas con la mantequilla, una pizca de sal y pimienta y nuez moscada al gusto. Dejar templar. Colocar la mezcla en una manga pastelera con boquilla ancha de estrella, e ir haciendo montoncitos sobre una bandeja de horno con papel vegetal. Pincelar con la yema de huevo. Gratinar unos 6-8 min hasta que empiecen a dorarse.",
+        "img": "./assets/images/0003.jpg",
+        "personas": 3,
+        "stars": 3,
+        "likes": 996,
+        "dislikes": 103,
+        "tiempo": 25
+
+    }, {
+        "id": "0004",
+        "name": "Redondo de pollo de Navidad con salsa de almendras",
+        "Ingredientes": "392 ml (1 brik peq.) de Leche evaporada IDEAL. 2 Cubitos MAGGI. 1 redondo de pollo (carne picada y frutos secos-1 kg aprox-en crudo). 200 g (2 unidades) de zanahoria. 400 g (2 unidades) de cebolla. 2 dientes de ajo. 100 g de almendras tostadas. 4 cucharadas de aceite de oliva. Sal. pimienta",
+        "Proceso": "Limpiar las zanahorias, las cebollas y los ajos y cortarlos en trozos. Freír el redondo de pollo en una cazuela con el aceite y las verduras, a fuego medio, hasta que quede dorado por todas partes (unos 30’). Verter los cubitos de caldo disueltos en 400 ml (2 vasos) de agua y cocerlo tapado unos 30 minutos más, dándole la vuelta de vez en cuando. Verter la leche evaporada y las almendras, taparlo de nuevo y dejarlo cocer a fuego suave unos 20 minutos, dándole la vuelta de vez en cuando. Retirar el redondo de pollo y dejarlo enfriar un poco antes de cortarlo. Pasar la salsa por la batidora, rectificar la sal y pimienta. Servir la carne cortada en filetes y cubierta con la salsa muy caliente.",
+        "img": "./assets/images/0004.jpg",
+        "personas": 4,
+        "stars": 3,
+        "likes": 356,
+        "dislikes": 5,
+        "tiempo": 25
+    },
+    {
+        "id": "0005",
+        "name": "Salsa de almendras",
+        "Ingredientes": "196 ml (1 brik peq.) de Leche evaporada IDEAL. 50 g de almendras tostadas peladas. 1 diente de ajo. 20 g de pan (2 rebanadas). 100 g de cebolla. 2 cucharadas de aceite de oliva. sal",
+        "Proceso": "Cortar en trozos las rebanadas de pan y en una sartén con 1 cucharada de aceite caliente, dorarlo a fuego medio durante unos 2-3 min, dándoles la vuelta. Reservar. Pelar y picar el ajo y la cebolla en brunoise. Añadirlos en la misma sartén y dejar cocinar, removiendo de vez en cuando, durante unos 8 min. En un mortero machacar el pan y las almendras y añadirlos junto con la cebolla y el ajo. Incorporar la leche evaporada, la sal y dejar cocer, removiendo de vez en cuando, durante unos 5 min, hasta que llegue a ebullición. Retirar del fuego y triturar hasta obtener una textura fina. Probar y rectificar de sal si es necesario.",
+        "img": "./assets/images/0005.jpg",
+        "personas": 4,
+        "stars": 4,
+        "likes": 1235,
+        "dislikes": 22,
+        "tiempo": 10
+    },
+    {
+        "id": "0006",
+        "name": "Salsa de naranja",
+        "Ingredientes": "100 ml de Leche evaporada para cocinar IDEAL. 100 g de cebolla. 2 dientes de ajo. 50 g de zanahoria. 150 ml de zumo de naranja recién exprimido . De 10 a 15 g de harina de maíz. Sal. pimienta. 2 cucharadas de aceite de oliva.",
+        "Proceso": "Cortar la cebolla, ajo y zanahoria en trozos pequeños. Pochar las verduras en una sartén con 2 cucharadas de aceite de oliva y una pizca de sal durante 10/12 min, removiendo de vez en cuando. Colar el zumo de naranja, añadir la harina de maíz y remover hasta disolver la harina. Añadir el zumo de naranja a las verduras. Cocer a fuego suave durante unos 1-2 min hasta que espese. Añadir la leche evaporada IDEAL y triturar. Probar y rectificar de sal y pimienta.",
+        "img": "./assets/images/0006.jpg",
+        "personas": 6,
+        "stars": 2,
+        "likes": 623,
+        "dislikes": 323,
+        "tiempo": 5
+
+    }
+]
