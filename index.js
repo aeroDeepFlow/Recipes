@@ -1,3 +1,5 @@
+//JS file. Toy Example
+
 const recipes = (recipesJSON) => {
 
     let num = document.getElementById("num-recetas");
