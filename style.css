@@ -24,7 +24,7 @@ body {
     max-width: 80%;
     min-width: 40%;
     margin: 1rem auto;
-    height: calc(98vh - 1rem);
+    height: calc(99vh - 1rem);
 }
 
 header {
@@ -232,9 +232,9 @@ button:disabled {
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: var(--bg-color-dark);
-    height: 10vh;
+    height: 12vh;
     border-radius: 25px;
     color: var(--color-tomate);
     text-align: center;
@@ -244,6 +244,6 @@ button:disabled {
 }
 
 .social>a {
-    margin: 0.25rem 1rem;
-    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
 }
